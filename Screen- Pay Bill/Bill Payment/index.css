@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.last-header-container{
+    padding: 0.5em 0;
+}
+.middle{
+    margin-bottom: 0;
+}
+.bottom{
+    display: flex;
+    font-size: 1.1em;
+    padding: 1em 0;
+}
+.bottom p{
+    margin-right: 1em;
+}
+.bottom button{
+    background-color: hsl(199, 69%, 50%);
+    color: white;
+    padding: 0.6em 1em;
+    border-radius: 0.5em;
+    font-size: 0.7em;
+   font-weight: 600;
+}
+.bottom button:hover{
+    cursor: pointer;
+    color: rgb(206, 62, 43);
+}
+/* header finished */
+
+.bg-blue{
+    background-color: hsl(199, 69%, 50%);
+}

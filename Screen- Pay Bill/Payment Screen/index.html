@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+         <div class="navigation"><a href="https://www.w3schools.com">HOME</a></div>
+         <div class="navigation"><a href="">PAY BILL</a></div>
+         <div class="navigation"><a href="">REGISTER COMPLAINT</a></div>
+         <div class="navigation"><a href="">COMPLAINT STATUS</a></div>
+       </div>
+       <div class="middle">
+           <div class="middle-header-container">
+               <p class="welcome">Welcome: </p>
+               
+                   <p>CustName</p>
+                   <button>
+                       <p>LOGOUT</p>
+                       <img src="../icon/logout.png" alt="logout pic">
+                   </button>
+            
+           </div>
+           <div class="last-header-container">
+               <p>Payment Screen</p>
+               <img src="../icon/double greater than icon.png" alt="double greater than icon">
+           </div>
+       </div>
+   </header>
+   <main>
+    <div class="grid-title">
+        <div class="title space">
+            <p>Pay by Credit Card</p>
+        </div>
+        <div class="cards-img">
+            <img src="../icon/cards_pic.jpg" alt="cards-img">
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="left">
+           <div class="cardDetails">
+            <div class="cardNumber">
+                <p class="space font-weight_600">Card Number</p>
+                <div class="input-cardNumber-grid">
+                     <input type="text" placeholder="Enter card number">
+                <div class="img-container">
+                    <img src="../icon/credit-card-icon.png" alt="card icon" class="card-icon">
+                </div>
+                </div>
+               
+            </div>
+            <div class="grid-expiryDetails">
+                <div class="month">
+                    <p class="space font-weight_600">Expiration Date</p>
+                    <input type="text" placeholder="Month">
+                </div>
+                <div class="year">
+                    <input type="text" placeholder="Year">
+                </div>
+                <div class="cvv">
+                    <p>CVV/ CVC</p>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="cardHolderName">
+                <p class="space font-weight_600">Card Holder Name</p>
+                <input type="text"
+                placeholder="Enter card holder name">
+            </div> 
+           </div>
+            <button class="btn font-weight_600">
+            Make Payment
+        </button>
+        <a href="">Cancel</a>
+        </div>
+        <div class="paymentAmount right">
+            <p>Payment Amount :</p>
+        </div>       
+    </div>
+   </main>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Payment Screen/header.css">
+    <link rel="stylesheet" href="index.css">
+   <style>
+    .bg-color-dark{
+        background-color:gray ;
+    }
+    .cl-white{
+        color: white;
+    }
+    .grid-details{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.05em;
+        
+    }
+    .bg-medium-dark{
+        background-color: hsl(0, 3%, 88%);
+    }
+    .billDetails{
+        padding: 1em 1.5em;
+    }
+    table, td , th{
+        border: 1px solid black;
+    }
+    tr{
+        border: 1px solid black;
+    }
+   </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+         <div class="navigation"><a href="https://www.w3schools.com">HOME</a></div>
+         <div class="navigation"><a href="">PAY BILL</a></div>
+         <div class="navigation"><a href="">REGISTER COMPLAINT</a></div>
+         <div class="navigation"><a href="">COMPLAINT STATUS</a></div>
+       </div>
+       <div class="middle">
+           <div class="middle-header-container">
+               <p class="welcome">Welcome: </p>
+               
+                   <p>CustName</p>
+                   <button>
+                       <p>LOGOUT</p>
+                       <img src="../icon/logout.png" alt="logout pic">
+                   </button>
+            
+           </div>
+           <div class="last-header-container">
+               <p>Bill payment</p>
+              
+           </div>
+           <div class="bottom">
+            <p>For Detailed Payment Instructions </p>
+            <button>Click Here</button>
+           </div>
+       </div>
+      
+   </header>
+<main>
+    <div class="grid-container">
+        <div class="grid-details">
+            <!-- Amount section not written -->
+            <div class="billDetails bg-color-dark cl-white"><p>Bill Details</p></div>
+            <div class="billDetails bg-medium-dark"><p>Bill Amount</p></div>
+            <div class="billDetails bg-medium-dark"><p>Total Payable Amount</p></div>
+            <div class="billDetails bg-medium-dark"><p>PG Charge</p></div>
+        </div>
+        <div class="middleTable">
+            <table>
+                <tr>
+                    <th>Customer Number</th>
+                    <th>Bill Number</th>
+                    <th>Payable Amount</th>
+                </tr>
+                <tr>
+                    <td>1156789068988</td>
+                    <td>34523456</td>
+                    <td>Rs 2,028</td>
+                </tr>
+            </table>
+        </div>
+        <!-- <div class="bottomSection"></div> -->
+    </div>
+</main>
+</body>
+</html>

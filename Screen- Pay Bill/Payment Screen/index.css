@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    padding: 0 1em;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:2fr 1fr;  
+    /* padding: 1em 1em;
+    remove L/R padding */
+    gap: 3rem;
+}
+.cardDetails{
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 3em;
+}
+.btn{
+    display: block;
+    padding: 1em;
+    border: none;
+    border-radius: 0.3em;
+    background-color: hsl(44, 100%, 64%);
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+}
+a{
+    text-align: end;
+    text-decoration: none;
+}
+.right{
+    padding: 1em;
+    align-self: flex-start;
+    border-radius: 0.1em;
+    background-color: hsl(185, 100%, 94%);
+}
+.left{
+    display: grid;
+}
+input{
+   width: 100%;
+   padding: 0.6em;
+   border-radius: 0.2rem;
+   border-style:solid;
+}
+.grid-expiryDetails{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: end;
+    gap:3rem;
+}
+.input-cardNumber-grid{
+    display: grid;
+    grid-template-columns: 90% 10%;    
+}
+
+.img-container img{
+    display: block;
+    width: 40px;    
+}
+.img-container{
+    background-color: hsl(0, 8%, 94%);
+    display: grid;
+    place-content: center;
+}
+.space{
+    margin-bottom: 0.3em;
+    
+}
+.font-weight_600{
+    font-weight:600;
+}
+
+.grid-title{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 1em;
+    font-size: 1.4em;
+}
+.title{
+    color: blue;
+    border-bottom: 3px solid rgb(67, 141, 202);
+    border-radius: 0.1rem;
+    align-self: flex-start;
+
+}
+.cards-img img{
+display: block;
+width: 130px;
+align-self: flex-end;
+}
